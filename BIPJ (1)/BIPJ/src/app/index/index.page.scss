@@ -1,0 +1,56 @@
+ion-content{
+    --background: #f1f1f1;
+}
+
+.btn{
+    width: 380px;
+    margin: 5px;
+    height: 48px;
+    --border-style: none;
+    --border-radius: 6px;
+    --box-shadow: 0 0 20px #eee;
+}
+
+.btn-socialmedia{
+    width: 185px;
+    height: 48px;
+}
+
+.btn-facebook{
+    --background: #4267B2;
+    --background-hover: #4267B2;
+}
+
+.btn-google{
+    --background: #ffffff;
+    --color: #000000;
+    --background-hover: #ffffff;
+}
+
+.btn-signup{
+--background: linear-gradient(to left, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+--background-hover: linear-gradient(to left, #84fab0 100%, #8fd3f4 51%, #84fab0 0%);
+
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    text-align: center;
+    display: block;
+}
+.form-container{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:50%;
+}
+.login-container{
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    right: 0;
+}

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input placeholder="Enter Category" [(ngModel)]="categoryname"></ion-input>
+  <ion-button (click)="CreateRecord()" [disabled]="!categoryname">
+    <ion-icon size="small" slot="icon-only" name="add"></ion-icon>
+          &nbsp;Create Record
+        </ion-button>
+
+  
+</ion-content>

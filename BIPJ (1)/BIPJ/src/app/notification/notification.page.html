@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>notification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of listing">
+    <ion-card-header>
+      <ion-card-title>{{item.CategoryName}}</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
